@@ -1,4 +1,5 @@
-/* const raining = true;
+// This is a code based on true or false
+const raining = true;
 const cold = false;
 
 if (raining) {
@@ -10,8 +11,10 @@ if (cold) {
 }
 
 console.log("Now you're ready to go outside!");
-*/
 
+
+
+// This is a a code based on temperature
 const temperature = 1;
 if (temperature < 0) {
     console.log("Make sure you pick out a scarf!");
@@ -22,3 +25,21 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+//citizen or not
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+    console.log("You are eligible to vote.");
+}
+
+//extreme temperature
+if (temperature < -40 || temperature 40) {
+    console.log("Maybe going outside isn't such a great idea...";)
+}
+
+if (!raining) {
+    console.log("Leave your umbrella at home!");
+}
+
